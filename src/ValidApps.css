@@ -1,0 +1,47 @@
+.valid {
+    width: 100%;
+    height: 184px;
+    margin-bottom: 32px;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 0 2px 20px grey;
+}
+
+html, body {
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.vcontainer {
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 10px;
+    bordertop: "2px solid grey"
+}
+
+.vcard {
+    width: 360px;
+    height: 0px;
+    border-radius: 42px;
+    margin-bottom: 70px;
+    margin-left: 30px;
+    margin-top: 62px;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 0 2px 20px grey;
+}
+
+
+.vimage {
+    margin: -26px 0px 0px -6px;
+    width: 90px;
+}

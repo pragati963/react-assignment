@@ -1,0 +1,210 @@
+html, body {
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.container {
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 60px;
+}
+
+.card {
+    flex-shrink: 0;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 0 2px 20px grey;
+    background: #FFFFFF;
+}
+
+.card-image {
+    margin: 20px;
+    width: 100px;
+    position: absolute;
+    left: 0.96%;
+    right: 1.79%;
+    top: 1.83%;
+    bottom: 1.83%;
+}
+
+.card-description {
+    position: absolute;
+    width: 153px;
+    height: 18px;
+    left: 26px;
+    top: 86px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #888888;
+}
+
+.overdue {
+    position: absolute;
+    width: 82px;
+    height: 38px;
+    left: 306px;
+    top: 35px;
+    font-family: Roboto;
+    font-style: normal;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 9px;
+    letter-spacing: 0.5px;
+    color: #E33F37;
+}
+
+
+.amount {
+    position: absolute;
+    width: 59px;
+    height: 28px;
+    left: 40px;
+    top: 103px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.duedate-title {
+    position: absolute;
+    width: 100px;
+    height: 18px;
+    left: 277px;
+    top: 90px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #888888;
+}
+
+.duedate {
+    position: absolute;
+    width: 126px;
+    height: 20px;
+    left: 239px;
+    top: 106px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #000000;
+}
+
+.button {
+    width: 244px;
+    height: 50px;
+    left: 77px;
+    top: 188px;
+    background: linear-gradient(
+            90deg, #00D1C1 0%, #00D1DC 100%);
+    border-radius: 4px;
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.faq {
+    position: absolute;
+    width: 323px;
+    height: 60px;
+    left: 38px;
+    top: 171px;
+    background: #F6F6F6;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.faq-title {
+    width: 213px;
+    height: 36px;
+    position: fixed;
+    left: 122px;
+    top: 174px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #202020;
+}
+
+.faq-svg {
+    position: absolute;
+    left: 18.17%;
+    right: 4.17%;
+    top: 33.17%;
+    bottom: 4.17%;
+}
+
+.faq-link {
+    width: 213px;
+    height: 36px;
+    position: fixed;
+    left: 122px;
+    top: 210px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #00A699;
+
+}
+
+.faq1-link {
+    position: absolute;
+    width: 34px;
+    height: 20px;
+    left: 320px;
+    top: 126px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #00A699;
+}
+
+.faq1-svg {
+    position: absolute;
+    left: 74.17%;
+    right: 4.17%;
+    top: 43.17%;
+    bottom: 4.17%;
+}

@@ -1,0 +1,107 @@
+.tcard {
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+.tcard-image {
+    width: 47px;
+    height: 46px;
+    padding: 41px 15px 4px 10px;
+
+}
+
+
+.tcard-title {
+    position: absolute;
+    display: inline-flex;
+    padding: 27px 2px 0px 46px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.tcard-date {
+    position: absolute;
+    display: inline-flex;
+    padding: 52px 2px 0px 46px;
+    font-style: normal;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.tcard-time {
+    position: absolute;
+    display: inline-flex;
+    padding: 52px 2px 0px 91px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #888888;
+}
+
+.tcard-amount {
+    position: absolute;
+    display: inline-flex;
+    padding: 28px 0px 0px 717px;
+    color: #000000;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: right;
+
+}
+
+.tcard-autopay {
+    position: absolute;
+    display: inline-flex;
+    padding: 32px 2px 0px 126px;
+    font-style: normal;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #00A699;
+}
+
+.tcard-cashback {
+    position: absolute;
+    display: inline-flex;
+    padding: 66px 0px 0px 9px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    color: #000000;
+    font-family: Source Sans Pro;
+    line-height: 15px;
+}
+
+.tcard-status {
+    position: absolute;
+    display: inline-flex;
+    padding: 56px 0px 0px 694px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    line-height: 18px;
+    text-align: right;
+    color: #888888;
+}
