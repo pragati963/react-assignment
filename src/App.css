@@ -1,3 +1,16 @@
+/*@media screen and (max-width:1200px) {*/
+/*    .container {*/
+/*        display: flex;*/
+/*        overflow-x: scroll;*/
+/*        width: 100%;*/
+/*        padding: 20px 0;*/
+/*        margin-top: 60px;*/
+/*    }*/
+/*}*/
+
+
+
+
 html, body {
     margin: 0;
 }
@@ -12,6 +25,8 @@ html, body {
     width: 100%;
     padding: 20px 0;
     margin-top: 60px;
+
+
 }
 
 /*css of container component */
@@ -48,6 +63,8 @@ html, body {
     background: #00D1C1;
 
 }
+
+
 
 .header {
     position: absolute;
@@ -102,6 +119,24 @@ html, body {
     box-shadow: 0 2px 6px grey;
 }
 
+@media screen and (max-width:1027px){
+    .recharge , .transactions{
+        width: 264%;
+    }
+}
+
+@media screen and (min-width:1028px){
+    .recharge , .transactions{
+        width: 125%;
+    }
+}
+
+@media screen and (max-width:468px){
+    .recharge , .transactions{
+        width: 300%;
+    }
+}
+
 .recharge-header {
     position: absolute;
     width: 140px;
@@ -139,4 +174,10 @@ html, body {
     font-size: 13px;
     line-height: 14px;
     color: #888888;
+}
+
+@media screen and (max-width:1027px){
+    .rectangle , .square{
+        width: 300%;
+    }
 }

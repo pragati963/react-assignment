@@ -149,7 +149,7 @@ function Container() {
                 </div>
                 <div>
                     <div className="recharge">
-                        <span className="recharge-header"> You can also use Simpl on </span>
+                        <span className="recharge-header">Recharge and Pay bills </span>
 
                         {Rdata.map((val: any) => {
                             return (
